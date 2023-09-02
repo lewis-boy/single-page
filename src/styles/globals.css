@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --lewis-color: #3dffff;
+  --wrapper-inline-padding: 16px;
+}
