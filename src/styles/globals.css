@@ -6,3 +6,30 @@
   --lewis-color: #3dffff;
   --wrapper-inline-padding: 16px;
 }
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  gap: 16px;
+}
+.embla__slide {
+  flex: 0 0 70%;
+  min-width: 0;
+}
+
+@media (min-width: 1440px) {
+  .embla__slide {
+    max-width: 540px;
+  }
+}
+
+.embla__slide:last-child {
+  margin-right: 16px;
+}
+
+.embla__slide__img {
+  display: block;
+  object-fit: cover;
+}
